@@ -1,0 +1,9 @@
+KHAN-MD/
+  index.js         Entry point (obfuscated); initializes the bot and 
+                   connects to WhatsApp via session
+  package.json     Dependencies and script configuration
+  settings.js      Configuration placeholder for session ID
+  app.json         Deployment configuration for Heroku with 20+ 
+                   environment variable presets
+  Dockerfile       Container image definition (Node.js LTS + PM2)
+  .gitignore       Standard Node.js ignores
